@@ -1,0 +1,21 @@
+.group {
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  background-color: #7fa29c;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+}
+
+.cell {
+  margin: 5px;
+  padding: 5px;
+  background-color: #aad7d1;
+}
+
+.cell > * {
+  margin: 5px;
+}
+
+.cell > * > * {
+  margin: 4px;
+}
